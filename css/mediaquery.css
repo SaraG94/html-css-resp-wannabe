@@ -1,0 +1,27 @@
+/*******Adattamento per ipad*******/
+@media screen and (max-width:768px){
+    .container {
+        max-width:768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+/************/
+
+
+/*******Adattamento per mobile*******/
+@media only screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        max-width:480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+/************/
