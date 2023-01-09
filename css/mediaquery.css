@@ -1,7 +1,7 @@
 /*******Adattamento per ipad*******/
 @media screen and (max-width:768px){
     .container {
-        max-width:768px;
+        max-width:100%;
         margin: 0 auto;
         padding: 0 20px;
     }
@@ -10,7 +10,7 @@
 
 
 /*******Adattamento per mobile*******/
-@media only screen and (max-width: 30%) {
+@media only screen and (max-width: 480px) {
     .row {
         display: flex;
         flex-direction: column;
@@ -19,7 +19,7 @@
     }
 
     .container {
-        max-width:30%;
+        max-width:100%;
         margin: 0 auto;
         padding: 0 20px;
     }
